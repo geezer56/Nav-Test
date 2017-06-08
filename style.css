@@ -1,0 +1,87 @@
+/* CSS Styles are placed in this file */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+header {
+  background-image:url("images/World-War-II-art-drawing-fighter-aircraft-carrier-sea-sky_1600x900%20(2).jpg");
+   
+  
+  background-size: cover;  
+
+  height: 400px;
+    
+  
+}
+
+main {
+  min-height: 400px;
+  background-color: #fff;
+}
+
+footer {
+  height: 150px;
+  background-color: #bdcbd9;
+}
+
+.container {
+  width: 980px;
+  margin: auto;
+}
+
+.container:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+/* ----- =logo ----- */
+
+header h1 {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 40px;
+  margin: 30px 0 10px 0;
+}
+
+header h1 a {
+  color: #424254;
+  text-decoration: none;
+}
+
+header h1 a:hover {
+  color: red;
+}
+
+
+/* ----- =navigation ----- */
+
+header nav {
+  float: right;
+  margin-top:245px;
+    margin-right: 60px;
+padding-top: 0;
+    width: 400px;
+    height: 200px;
+}
+
+header nav a {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  color: #424254;
+  margin-left: 10px;
+    margin-top: 10px;
+  text-decoration: none;
+    border: 1px solid #bcbcbc;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: bisque;
+}
+
+header nav a:hover {
+  color: red;
+}
