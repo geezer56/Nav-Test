@@ -30,11 +30,11 @@ footer {
   background-color: #bdcbd9;
 }
 
-.container {
+.container .row {
   width: 980px;
   margin: auto;
 }
-
+.row,
 .container:after {
   content: " ";
   display: table;
@@ -89,9 +89,17 @@ header nav a:hover {
   color: red;
 }
 
-.column-left {width: 50%;
+
+.column-left h2 {width: 50%;
   float: left; 
   border:1px solid #000;
   padding: 0 10px;} 
-h2 {font-family: 'Aldrich', sans-serif;}
+
+.column-right h2 {width: 50%;
+  float: right; 
+  border:1px solid #000;
+  padding: 0 10px;}
+
+h2 {font-family: 'Aldrich', sans-serif;
+text-align: center;}
 p {text-align: left;}
