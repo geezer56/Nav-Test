@@ -42,10 +42,10 @@ footer {
 /* ----- =logo ----- */
 
 header h1 {
-  float: left;
+  float: right;
   font-family: Arial, sans-serif;
   font-size: 40px;
-  margin: 30px 0 10px 0;
+  margin: 30px 0 10px 0px;
 }
 
 header h1 a {
@@ -53,7 +53,7 @@ header h1 a {
   text-decoration: none;
 }
 
-header h1 a:hover {
+xheader xh1 xa:hover {
   color: red;
 }
 
