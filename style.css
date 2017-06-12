@@ -36,6 +36,8 @@ footer {
     
     
 }
+nav,
+a,
 .head1,
 .row:after,
 .container:after {
@@ -73,10 +75,10 @@ header h1 a:hover {
 
 header nav {
   float: right;
-  margin-top:245px;
-    margin-right: 60px;
-padding-top: 0;
-    width: 400px;
+  margin-top:0px;
+    margin-right: 150px;
+padding-top: 0px;
+    width: 100px;
     height: 200px;
 }
 
