@@ -1,121 +1,157 @@
 /* CSS Styles are placed in this file */
-@import url('https://fonts.googleapis.com/css?family=Aldrich');
 
+@import url('https://fonts.googleapis.com/css?family=Aldrich');
 html {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
 }
 
 header {
-  background-image:url("images/World-War-II-art-drawing-fighter-aircraft-carrier-sea-sky_1600x900%20(2).jpg");
-   
-  
-  background-size: cover;  
-
-  height: 400px;
-    
-  
+    background-image: url("images/World-War-II-art-drawing-fighter-aircraft-carrier-sea-sky_1600x900%20(2).jpg");
+    background-size: cover;
+    height: 400px;
 }
 
 main {
-  min-height: 400px;
-  background-color: #fff;
+    min-height: 400px;
+    background-color: #cacaca;
+    padding-top: 20px;
 }
 
 footer {
-  height: 150px;
-  background-color: #bdcbd9;
+    height: 150px;
+    background-color: #bdcbd9;
 }
 
-.container{
-  width: 980px;
-  margin: auto;
-    
-    
+.container {
+    width: 980px;
+    margin: auto;
 }
+
+ul,
 nav,
 a,
 .head1,
 .row:after,
 .container:after {
-  content: " ";
-  display: table;
-  clear: both;
+    content: " ";
+    display: table;
+    clear: both;
 }
+
 
 /* ----- =logo ----- */
 
 header h1 {
-  float: right;
-  font-family: Arial, sans-serif;
-  font-size: 40px;
-  margin: 30px 0 10px 0px;
+    float: right;
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    margin: 30px 0 10px 0px;
+    text-shadow: 0 0 5px #fff;
 }
 
 header h1 a {
-  color: #424254;
-  text-decoration: none;
+    color: #424254;
+    text-decoration: none;
 }
-.head1 {font-family: 'Aldrich', sans-serif;
+
+.head1 {
+    font-family: 'Aldrich', sans-serif;
     border: 2px solid #000;
- box-shadow: 0 0 10px 0 #000 inset;
-    text-align:center;
-    width: 400px;
-    margin:auto
-    
+    box-shadow: 0 0 10px 0 #000 inset;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    border-radius: 10px;
+    font-size: 45px;
 }
+
 header h1 a:hover {
-    color: red;}
+    color: red;
+}
 
 
 /* ----- =navigation ----- */
 
 header nav {
-  float: right;
-  margin-top:0px;
+    float: right;
+    margin-top: 30px;
     margin-right: 150px;
-padding-top: 0px;
+    margin-bottom: 20px;
+
     width: 100px;
-    height: 200px;
+    height: 250px;
 }
 
 header nav a {
-  font-family: Arial, sans-serif;
-  font-size: 18px;
-  color: #424254;
-  margin-left: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #424254;
+    margin-left: 10px;
     margin-top: 10px;
-  text-decoration: none;
+    text-decoration: none;
     border: 1px solid #bcbcbc;
     padding: 10px;
     border-radius: 10px;
-    background-color: bisque;
+    background-color: #cacaca;
 }
 
 header nav a:hover {
-  color: red;
+    color: red;
+}
+
+.column-left {
+    width: 50%;
+    float: left;
+}
+
+.column-right {
+    width: 50%;
+    float: right;
+}
+
+.column-left h2 {
+    width: 50%;
+    background-color: #cacaca;
+    xbox-shadow: 0 0 10px 0 #000 inset;
+}
+
+.column-right h2 {
+    width: 50%;
+    xborder: 1px solid #000;
+    background-color: #cacaca;
+}
+
+h2 {
+    font-family: 'Aldrich', sans-serif;
+    font-size: 30px;
 }
 
 
-.column-left h2 {width: 50%;
-  float: left; 
-  border:1px solid #000;
-  padding: 0 10px;} 
 
-.column-right h2 {width: 50%;
-  float: right; 
-  border:1px solid #000;
-  padding: 0 10px;}
+.col-1 {
+    width: 25%;
+    float: left;
+}
 
-h2 {font-family: 'Aldrich', sans-serif;
-text-align: center;}
-.col-1 {width: 25%;
-border: 2px solid #000;
-float:left;}
-x.col-2 {width:16.666666%;}
-x.col-3 {width: 25%;}
-x.col-4 {width: 25%;}
-p {text-align: left;}
+.col-2 {
+    width: 16.666666%;
+    float: left;
+}
+
+x.col-3 {
+    width: 25%;
+}
+
+x.col-4 {
+    width: 25%;
+}
+
+p { font-family: 'Aldrich', sans-serif;
+   
+}
